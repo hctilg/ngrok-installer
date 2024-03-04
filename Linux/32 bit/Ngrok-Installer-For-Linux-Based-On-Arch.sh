@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 sudo sudo pacman -Syu
 sudo pacman -S wget zip
