@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 sudo zypper dup -y
 sudo zypper install wget zip -y
