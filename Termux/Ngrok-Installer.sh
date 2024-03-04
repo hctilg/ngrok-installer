@@ -6,4 +6,4 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip -O ~/ngrok.
 unzip ~/ngrok.zip -d $PREFIX/bin
 rm -rf ~/ngrok.zip
 
-ngrok
+yes | pkg install ngrok > /dev/null 2>&1
