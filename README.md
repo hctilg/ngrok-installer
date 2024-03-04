@@ -7,11 +7,8 @@ After that, run this script:
 
 For termux:
 
-```
-$ apt install git
-$ git clone https://github.com/hctilg/ngrok-installer
-$ cd ngrok-installer/Termux
-$ bash Ngrok-installer.sh
+```bash
+curl -s "https://raw.githubusercontent.com/hctilg/ngrok-installer/master/Termux/Ngrok-Installer.sh" | sh
 ```
 
 To usage:
@@ -62,19 +59,27 @@ bash Ngrok-Installer-For-(your linux based).sh
 
 To usage:
 
-#ngrok authtoken (your authtoken on your ngrok dashboard)
+```
+# ngrok authtoken (your authtoken on your ngrok dashboard)
+```
 
 For help:
 
-#ngrok help
+```
+# ngrok help
+```
 
 For start a HTTP tunnel on port 80:
 
-#ngrok http 80
+```
+# ngrok http 80
+```
 
 For update
 
-#ngrok update
+```
+# ngrok update
+```
 
 For Windows:
 
